@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb
+
+app/static/contratos/**
+app/static/contratos_img/**
