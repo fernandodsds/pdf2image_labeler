@@ -5,4 +5,4 @@ DEBUG = True
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
 
-UPLOAD_FOLDER = 'static/contratos'
+UPLOAD_FOLDER = 'app/static/contratos'

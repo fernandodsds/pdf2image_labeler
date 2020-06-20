@@ -8,7 +8,7 @@ def convert_target(filename):
     
     base_filename  =  os.path.splitext(os.path.basename(filename) + '.jpg')[0]
     base_filename = base_filename.split('.')[0]
-    path_img =f'static/contratos_img/{base_filename}'
+    path_img =f'app/static/contratos_img/{base_filename}'
     if os.path.isdir(path_img):
         return path_img
     os.mkdir(path_img)
